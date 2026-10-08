@@ -1,0 +1,8 @@
+name: scryfall-bot
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - aiohttp>=3.9,<4
+  - discord.py>=2.5,<3
+  - python-dotenv>=1.0,<2
