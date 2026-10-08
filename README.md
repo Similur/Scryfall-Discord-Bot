@@ -50,16 +50,6 @@ In your server, type `/search` and fill in the options:
 
 `card_name` is required. `set_name` is optional and accepts a set name or code. The bot shows the newest matching printing returned by the search, plus up to 12 other printings from the first page of results. Prices can be missing when Scryfall has no listed price.
 
-## Upload to GitHub
-
-1. Create an empty repository on GitHub.
-2. Choose **Add file → Upload files**.
-3. Upload this folder's contents, including `.env.example` and `.gitignore`, and commit them. If you downloaded the ZIP, extract it first.
-
-Check that the dotfiles appear in the upload list. Do not upload your local `.env`: `.gitignore` protects Git-based commits, but browser uploads require you to choose the files yourself. See [GitHub's file upload guide](https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository).
-
-Uploading the code to GitHub does not run the bot. Run it on your computer or a host with a persistent Python process.
-
 ## Troubleshooting
 
 - **Missing token:** Check that `.env` is beside `Scryfall.py` and contains `DISCORD_BOT_TOKEN`.
